@@ -1,0 +1,574 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-02-08 18:51+0100\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: ru_RU\n"
+"Project-Id-Version: 1263bc1f20e1271bda78e84d2f4a6562\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2024-05-12 00:04\n"
+"Last-Translator: \n"
+"Language-Team: Russian\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: 1263bc1f20e1271bda78e84d2f4a6562\n"
+"X-Crowdin-Project-ID: 1\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /main/packages/core/src/locales/en-US/messages.po\n"
+"X-Crowdin-File-ID: 15\n"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:64
+msgid "(>5 min)"
+msgstr "(>5 мин)"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:64
+msgid "(~{selectedTime} min)"
+msgstr ""
+
+#: src/components/Amount/Amount.tsx:87
+msgid "{0, plural, one {mojo} other {mojos}}"
+msgstr "{0, plural, one {mojo} other {mojos}}"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:36
+msgid "{minPassphraseLength, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
+msgstr "{minPassphraseLength, plural, one {Парольные фразы должны содержать не менее # символа длиной} other {Парольная фраза должна быть не менее # символов длиной}}"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
+msgid "A new version of Gold is available!"
+msgstr "Доступна новая версия Gold!"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
+msgid "Add Icon"
+msgstr ""
+
+#: src/screens/SelectKey/SelectKey.tsx:174
+msgid "Add wallet"
+msgstr "Добавить кошелек"
+
+#: src/components/Amount/Amount.tsx:37
+msgid "Amount"
+msgstr "Количество"
+
+#: src/components/Settings/SettingsApp.tsx:94
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:161
+msgid "Are you sure you want to continue? Type in the fingerprint of this wallet key to confirm deletion."
+msgstr ""
+
+#: src/components/FormBackButton/FormBackButton.tsx:15
+#: src/screens/SelectKey/SelectKey.tsx:129
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:173
+msgid "Back"
+msgstr "Назад"
+
+#: src/components/ConfirmDialog/ConfirmDialog.tsx:29
+#: src/hooks/useKeyringMigrationPrompt.tsx:18
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:90
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/components/Settings/SettingsApp.tsx:140
+msgid "Check for updates"
+msgstr "Проверить обновления"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:93
+msgid "Checking for updates..."
+msgstr "Проверка обновлений..."
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:47
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:70
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/components/FormatConnectionStatus/FormatConnectionStatus.tsx:32
+msgid "Connected"
+msgstr "Подключен"
+
+#: src/components/CopyToClipboard/CopyToClipboard.tsx:42
+msgid "Copied"
+msgstr "Скопировано"
+
+#: src/components/CopyToClipboard/CopyToClipboard.tsx:42
+msgid "Copy to Clipboard"
+msgstr "Скопировать в буфер обмена"
+
+#: src/screens/SelectKey/SelectKey.tsx:170
+#~ msgid "Create a new private key"
+#~ msgstr "Create a new private key"
+
+#: src/screens/SelectKey/SelectKey.tsx:274
+msgid "Create a new wallet key"
+msgstr "Создать новый ключ кошелька"
+
+#: src/screens/SelectKey/SelectKey.tsx:266
+msgid "Create a new wallet key to get started with Gold."
+msgstr "Создайте новый ключ кошелька, чтобы начать с Gold."
+
+#: src/screens/SelectKey/SelectKey.tsx:177
+msgid "Create New"
+msgstr "Создать новый"
+
+#: src/components/Settings/SettingsApp.tsx:111
+msgid "Dark"
+msgstr "Тёмный"
+
+#: src/screens/SelectKey/SelectKey.tsx:128
+#: src/screens/SelectKey/SelectKeyItem.tsx:114
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:183
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/screens/SelectKey/SelectKey.tsx:127
+msgid "Delete all keys"
+msgstr "Удалить все ключи"
+
+#: src/screens/SelectKey/SelectKey.tsx:202
+msgid "Delete All Keys"
+msgstr "Удалить все ключи"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:113
+msgid "Delete key {fingerprint}"
+msgstr "Удалить ключ {fingerprint}"
+
+#: src/screens/SelectKey/SelectKey.tsx:133
+msgid "Deleting all keys will permanently remove the keys from your computer, make sure you have backups. Are you sure you want to continue?"
+msgstr "Удаление всех ключей приведет к безвозвратному удалению ключей с вашего компьютера, убедитесь, что у вас есть резервные копии. Вы уверены что хотите продолжить?"
+
+#: src/screens/SelectKey/SelectKeyItem.tsx:106
+msgid "Details"
+msgstr "Детали"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:60
+msgid "Disable"
+msgstr "Отключить"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:59
+msgid "Disable Passphrase Protection"
+msgstr "Отключить защиту паролем"
+
+#: src/components/Back/Back.tsx:37
+#: src/components/FormBackButton/FormBackButton.tsx:28
+msgid "Discard"
+msgstr "Oтказаться"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:148
+msgid "Download"
+msgstr "Загрузить"
+
+#: src/components/CardSimple/CardSimple.tsx:52
+#: src/hooks/useShowError.tsx:14
+msgid "Error"
+msgstr "Ошибка"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+msgid "Error:"
+msgstr "Ошибка:"
+
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:91
+msgid "Esc"
+msgstr "Выйти"
+
+#: src/components/LayoutMain/LayoutFooter.tsx:49
+msgid "FAQ"
+msgstr "ЧаВо"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:90
+msgid "Farmer Public Key"
+msgstr "Открытый ключ фермера"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:58
+msgid "Farmer public key:"
+msgstr "Открытый ключ фермера:"
+
+#: src/components/Settings/SettingsApp.tsx:79
+msgid "Farming"
+msgstr "Фарминг"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:338
+#: src/components/EstimatedFee/EstimatedFee.tsx:372
+#: src/components/Fee/Fee.tsx:44
+msgid "Fee"
+msgstr "Комиссия"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:98
+msgid "Fingerprint does not match"
+msgstr "Отпечаток не совпадает"
+
+#: src/components/Settings/SettingsApp.tsx:152
+msgid "Frequently Asked Questions"
+msgstr "Часто задаваемые вопросы"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:121
+msgid "Go To Download Page"
+msgstr "Перейти на страницу загрузки"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
+msgid "Gold {latestVersion} is currently the latest version available."
+msgstr ""
+
+#: src/components/Settings/SettingsApp.tsx:126
+msgid "Gold Application Version:"
+msgstr "Версия приложения Gold:"
+
+#: src/components/Settings/SettingsApp.tsx:148
+msgid "Help"
+msgstr "Помощь"
+
+#: src/components/LocaleToggle/LocaleToggle.tsx:61
+msgid "Help translate"
+msgstr "Помогите с переводом"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:124
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:146
+msgid "Hide"
+msgstr "Скрыть"
+
+#: src/components/AdvancedOptions/AdvancedOptions.tsx:27
+msgid "Hide Advanced Options"
+msgstr "Скрыть дополнительные опции"
+
+#: src/screens/SelectKey/SelectKey.tsx:182
+msgid "Import Existing"
+msgstr ""
+
+#: src/screens/SelectKey/SelectKey.tsx:181
+#~ msgid "Import from Mnemonics (12 or 24 words)"
+#~ msgstr ""
+
+#: src/components/Fee/Fee.tsx:32
+msgid "Incorrect value"
+msgstr "Некорректное значение"
+
+#: src/components/Settings/SettingsApp.tsx:118
+msgid "Language"
+msgstr "Язык"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:57
+msgid "Latest Version:"
+msgstr "Последняя версия:"
+
+#: src/components/Settings/SettingsApp.tsx:103
+msgid "Light"
+msgstr "Светлый"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:227
+msgid "Likely in {0} seconds"
+msgstr ""
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:224
+msgid "Likely in {minutes} minutes"
+msgstr ""
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:226
+msgid "Likely in >5 minutes"
+msgstr ""
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:46
+msgid "Loading details"
+msgstr "Загрузка сведений"
+
+#: src/screens/SelectKey/SelectKey.tsx:236
+msgid "Loading keys"
+msgstr "Загрузка ключей"
+
+#: src/screens/SelectKey/SelectKey.tsx:117
+#~ msgid "Loading list of the keys"
+#~ msgstr "Loading list of the keys"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:317
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:336
+#~ msgid "Log Out"
+#~ msgstr ""
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:335
+#~ msgid "Logout"
+#~ msgstr ""
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:17
+msgid "Migrate"
+msgstr "Мигрировать"
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:16
+msgid "Migration required"
+msgstr "Требуется миграция"
+
+#: src/components/Settings/SettingsApp.tsx:70
+msgid "Mode"
+msgstr "Режим"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:107
+msgid "NEVER SHARE THESE WITH ANYONE"
+msgstr ""
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:42
+msgid "New passphrase is the same as your current passphrase"
+msgstr "Новый пароль совпадает с вашим текущим паролем"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:133
+msgid "New version {latestVersion} available"
+msgstr ""
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:84
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:138
+msgid "No 24 word seed, since this key is imported."
+msgstr "Нет 24 слов семя, так как этот ключ импортируется."
+
+#: src/components/FormatConnectionStatus/FormatConnectionStatus.tsx:33
+msgid "Not connected"
+msgstr "Нет подключения"
+
+#: src/screens/SelectKey/WalletStatus.tsx:61
+#~ msgid "Not Synced"
+#~ msgstr ""
+
+#: src/components/AlertDialog/AlertDialog.tsx:23
+#: src/components/ConfirmDialog/ConfirmDialog.tsx:30
+msgid "OK"
+msgstr "ОК"
+
+#: src/screens/SelectKey/SelectKey.tsx:258
+msgid "Open a world of possibilities."
+msgstr ""
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:98
+msgid "Pool Public Key"
+msgstr "Публичный ключ пула"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:66
+msgid "Pool public key:"
+msgstr "Публичный ключ пула:"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:27
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:34
+msgid "Private key {fingerprint}"
+msgstr "Закрытый ключ {fingerprint}"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:42
+msgid "Private key:"
+msgstr "Закрытый ключ:"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:82
+msgid "Public Key"
+msgstr "Публичный ключ"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:50
+msgid "Public key:"
+msgstr "Открытый ключ:"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:289
+msgid "Random"
+msgstr ""
+
+#: src/components/Fee/Fee.tsx:18
+msgid "Recommended value: 0.000005"
+msgstr ""
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:71
+msgid "Release Notes"
+msgstr ""
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+msgid "Reload Application"
+msgstr "Перезагрузить приложение"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
+msgid "Remove Icon"
+msgstr ""
+
+#: src/screens/SelectKey/SelectKeyItem.tsx:98
+msgid "Rename"
+msgstr "Переименовать"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+msgid "Report an Issue"
+msgstr "Сообщить о проблеме"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:124
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:146
+msgid "Reveal"
+msgstr "Показать"
+
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:109
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:182
+#: src/screens/SelectKey/Search.tsx:34
+msgid "Search"
+msgstr "Поиск"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:113
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:131
+msgid "Seed Phrase"
+msgstr "Мнемоническая фраза"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:76
+msgid "Seed:"
+msgstr "Семя:"
+
+#: src/screens/SelectKey/SelectKey.tsx:134
+#~ msgid "Select Key"
+#~ msgstr "Select Key"
+
+#: src/components/Dropdown/Dropdown.tsx:28
+msgid "Select..."
+msgstr "Выбрать..."
+
+#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/Settings/SettingsApp.tsx:155
+msgid "Send Feedback"
+msgstr "Оставить отзыв"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:53
+msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
+msgstr "Установка пароля для защиты ваших ключей настоятельно рекомендуется. Вы уверены, что хотите отключить защиту паролем?"
+
+#: src/components/Settings/Settings.tsx:50
+#: src/components/Settings/Settings.tsx:60
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/components/AdvancedOptions/AdvancedOptions.tsx:26
+msgid "Show Advanced Options"
+msgstr "Показать дополнительные опции"
+
+#: src/screens/SelectKey/SelectKey.tsx:139
+#~ msgid "Sign In"
+#~ msgstr "Sign In"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:136
+#: src/hooks/useValidateChangePassphraseParams.tsx:51
+msgid "Skip"
+msgstr "Пропустить"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:50
+msgid "Skip Passphrase Protection"
+msgstr "Пропустить защиту паролем"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+msgid "Something went wrong"
+msgstr "Что-то пошло не так"
+
+#: src/screens/SelectKey/WalletStatus.tsx:73
+#~ msgid "Synced"
+#~ msgstr ""
+
+#: src/screens/SelectKey/WalletStatus.tsx:85
+#~ msgid "Syncing"
+#~ msgstr ""
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:29
+msgid "The provided passphrase and confirmation do not match"
+msgstr "Пароли не совпадают"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:143
+msgid "This key is used for a wallet that may have a non-zero balance. By deleting this key you may lose access to this wallet"
+msgstr "Этот ключ используется для кошелька, который может иметь ненулевой баланс. Удаляя этот ключ, вы можете потерять доступ к этому кошельку"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:125
+msgid "This key is used for your farming rewards address. By deleting this key you may lose access to any future farming rewards"
+msgstr "Этот ключ используется для вашего адреса фермерских вознаграждений. Удаляя этот ключ, вы можете потерять доступ к будущим фермерским вознаграждениям"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:134
+msgid "This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
+msgstr "Этот ключ используется для вашего адреса фермерских вознаграждений. Удаляя этот ключ, вы можете потерять доступ к будущим фермерским вознаграждениям"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:155
+msgid "This will permanently remove the key from your computer, make sure you have your mnemonic phrase backed up."
+msgstr "Это безвозвратно удалит ключ с вашего компьютера, убедитесь, что ваша мнемоническая фраза сохранена."
+
+#: src/utils/getTransactionResult.ts:40
+msgid "Transaction has been sent to a full node and is pending inclusion into the mempool. {0}"
+msgstr ""
+
+#: src/utils/getTransactionResult.ts:15
+msgid "Transaction has not been sent to node yet"
+msgstr "Транзакция пока еще не была отправлена узлу"
+
+#: src/utils/getTransactionResult.ts:33
+#~ msgid "Transaction has sent to a full node and is pending inclusion into the mempool. {0}"
+#~ msgstr "Transaction has been sent to a full node and is pending inclusion into the mempool. {0}"
+
+#: src/utils/getTransactionResult.ts:24
+msgid "Transaction has successfully been sent to a full node and included in the mempool."
+msgstr "Транзакция успешно отправлена на полный узел и включена в мемпул."
+
+#: src/screens/SelectKey/SelectKey.tsx:243
+msgid "Try Again"
+msgstr "Попробовать снова"
+
+#: src/screens/SelectKey/SelectKey.tsx:247
+msgid "Unable to load keys"
+msgstr "Не удается загрузить ключи"
+
+#: src/screens/SelectKey/SelectKey.tsx:128
+#~ msgid "Unable to load the list of the keys"
+#~ msgstr "Unable to load the list of the keys"
+
+#: src/components/LocaleToggle/LocaleToggle.tsx:44
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: src/components/Back/Back.tsx:36
+#: src/components/FormBackButton/FormBackButton.tsx:27
+msgid "Unsaved Changes"
+msgstr "Несохранённые изменения"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:62
+msgid "Using a passphrase is strongly recommended to protect your keys. Are you sure you want to disable passphrase protection?"
+msgstr "Настоятельно рекомендуется использовать пароль для защиты ваших ключей. Вы уверены, что хотите отключить защиту паролем?"
+
+#: src/components/Fee/Fee.tsx:24
+msgid "Value seems high"
+msgstr "Значение вероятно завышено"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:233
+#: src/components/Settings/SettingsApp.tsx:87
+msgid "Wallet"
+msgstr "Кошелёк"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:63
+#: src/screens/SelectKey/SelectKeyItem.tsx:234
+msgid "Wallet {0}"
+msgstr "Кошелёк {0}"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:166
+msgid "Wallet Fingerprint"
+msgstr "Отпечаток кошелька"
+
+#: src/screens/SelectKey/SelectKey.tsx:223
+msgid "Wallet Keys"
+msgstr "Ключи кошелька"
+
+#: src/screens/SelectKey/SelectKey.tsx:142
+#~ msgid "Welcome to Gold. Please log in with an existing key, or create a new key."
+#~ msgstr "Welcome to Gold. Please log in with an existing key, or create a new key."
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:142
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
+msgid "What's New"
+msgstr "Что нового"
+
+#: src/components/Back/Back.tsx:40
+#: src/components/FormBackButton/FormBackButton.tsx:31
+msgid "You have made changes. Do you want to discard them?"
+msgstr "У вас есть несохраненные изменения. Хотите сохранить их?"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:97
+msgid "You're up to date"
+msgstr "Вы обновлены"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:49
+msgid "Your Current Version:"
+msgstr "Ваша текущая версия:"
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:21
+msgid "Your keys have not been migrated to a new keyring. You will be unable to create new keys or delete existing keys until migration completes. Would you like to migrate your keys now?"
+msgstr "Ваши ключи не были перенесены в новую систему ключей. Вы не сможете создавать новые ключи или удалять существующие ключи до тех пор, пока не завершится миграция. Хотите перенести ваши ключи сейчас?"

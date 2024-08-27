@@ -25,7 +25,7 @@ config/keys.yaml
 config/plots.yaml
 
 # Bundled code
-chia-blockchain.tar.gz.tar.gz
+gold-blockchain.tar.gz.tar.gz
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -61,12 +61,8 @@ activate
 # mypy
 .mypy_cache/
 
-# Editors
-.vscode
-.idea
-
 # Packaging
-chia-blockchain.tar.gz
+gold-blockchain.tar.gz
 
 # Timelord utilities
 vdf_bench
@@ -90,9 +86,21 @@ main.sym
 build
 build_scripts/dist
 build_scripts/*.Dmg
-src/locales/_build
-src/locales/**/*.js
+packages/**/src/locales/_build
+packages/**/src/locales/**/*.js
 daemon/
 win_code_sign_cert.p12
-Gold-darwin-x64/
-Gold-darwin-x64/
+
+# testing
+packages/**/playwright-report/index.html
+
+.env
+dist
+
+# JetBrains
+.idea/
+
+# Test coverage data
+**/coverage
+.coverage
+.nyc_output

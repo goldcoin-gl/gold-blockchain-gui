@@ -1,0 +1,916 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-02-08 18:51+0100\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh_CN\n"
+"Project-Id-Version: 1263bc1f20e1271bda78e84d2f4a6562\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2024-05-05 00:04\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: 1263bc1f20e1271bda78e84d2f4a6562\n"
+"X-Crowdin-Project-ID: 1\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /main/packages/wallets/src/locales/en-US/messages.po\n"
+"X-Crowdin-File-ID: 25\n"
+
+#: src/components/WalletHistory.tsx:118
+msgid "-"
+msgstr "-"
+
+#: src/components/WalletSend.tsx:367
+msgid "- Memo helps the receiver side to identify the payment.<0/>- Anything you enter will be publicly accessible on the blockchain."
+msgstr "- 备注帮助接收方识别付款。<0/>- 输入的任何内容将公开在区块链上。"
+
+#: src/components/WalletSend.tsx:294
+msgid "- Set a time frame which allows you claw back (revoke) the transaction.<0/>- Recipient of the transaction can only claim the funds once that time frame expires."
+msgstr "- 设置一个时间框架，允许撤回(撤销)交易。<0/>- 交易的接收者只能在该时间到期后才能确认资金。"
+
+#: src/components/WalletHistory.tsx:118
+msgid "+"
+msgstr "+"
+
+#: src/components/WalletHeader.tsx:62
+msgid "Actions"
+msgstr "操作"
+
+#: src/components/cat/WalletCATCreateExistingSimple.tsx:79
+msgid "Add"
+msgstr "添加"
+
+#: src/components/WalletSend.tsx:288
+msgid "Add option to claw back transaction"
+msgstr "添加可撤回交易选项"
+
+#: src/components/cat/WalletCATCreateExistingSimple.tsx:61
+#: src/components/cat/WalletCATCreateSimple.tsx:68
+#: src/components/WalletsManageTokens.tsx:154
+msgid "Add Token"
+msgstr "添加代币"
+
+#: src/components/WalletSend.tsx:362
+msgid "Add transaction memo"
+msgstr "添加交易备注"
+
+#: src/components/cat/WalletCATCreateSimple.tsx:92
+msgid "Adding {0} token"
+msgstr "添加 {0} 代币"
+
+#: src/components/stake/StakeFrom.tsx:130
+#: src/components/WalletReceiveAddress.tsx:57
+msgid "Address"
+msgstr "地址"
+
+#: src/components/cat/WalletCATSend.tsx:196
+#: src/components/WalletSend.tsx:220
+#~ msgid "Address / Puzzle hash"
+#~ msgstr "Address / Puzzle hash"
+
+#: src/components/AddressBookAutocomplete.tsx:65
+msgid "Address or Contact"
+msgstr "地址或联系方式"
+
+#: src/components/cat/WalletCATSend.tsx:214
+#: src/components/stake/StakeFrom.tsx:142
+#: src/components/stake/StakeSend.tsx:142
+#: src/components/WalletSend.tsx:241
+msgid "Amount"
+msgstr "数量"
+
+#: src/components/stake/StakeFrom.tsx:118
+msgid "Amount 0 will withdraw all stake"
+msgstr ""
+
+#: src/components/card/WalletCardCRCatApprove.tsx:71
+msgid "Approve"
+msgstr "批准"
+
+#: src/components/crCat/CrCatApprovePendingDialog.tsx:91
+msgid "Approve pending CR-CAT transactions"
+msgstr "批准待确认的受限代币交易"
+
+#: src/components/crCat/CrCatApprovePendingDialog.tsx:147
+msgid "Approve pending transactions"
+msgstr "批准待确认的交易"
+
+#: src/components/WalletHeader.tsx:30
+msgid "Are you sure you want to delete unconfirmed transactions?"
+msgstr "确定要删除未确认的交易吗？"
+
+#: src/components/WalletHistory.tsx:131
+msgid "Asset"
+msgstr "资产"
+
+#: src/components/cat/WalletCATCreateExistingSimple.tsx:71
+#: src/components/cat/WalletCATTAILDialog.tsx:33
+#: src/components/cat/WalletCATTAILDialog.tsx:43
+msgid "Asset Id"
+msgstr "资产 ID"
+
+#: src/constants/WalletName.ts:11
+msgid "Atomic Swap Wallet"
+msgstr "原子交换钱包"
+
+#: src/constants/WalletName.ts:14
+msgid "Authorized Payee Wallet"
+msgstr "授权的收款钱包"
+
+#: src/components/card/WalletCardCRCatRestrictions.tsx:44
+msgid "Authorized providers"
+msgstr "授权的提供商"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:234
+msgid "Auto-claim transactions with this fee from now on."
+msgstr "从现在开始，以此手续费自动确认交易。"
+
+#: src/components/nftRecover/NFTRecover.tsx:173
+msgid "Available Balance"
+msgstr ""
+
+#: src/components/WalletSend.tsx:336
+msgid "Before sending this transaction, you should ensure that the recipient has a wallet that can claim it manually after the timer has expired."
+msgstr "在发起此交易前，应确保接收方的钱包，在定时到期后可以手动确认这笔交易。"
+
+#: src/components/WalletHistoryClawbackChip.tsx:61
+msgid "Can be claimed in "
+msgstr "可以确认 "
+
+#: src/components/PasteMnemonic.tsx:76
+#: src/components/WalletRenameDialog.tsx:72
+msgid "Cancel"
+msgstr "取消"
+
+#: src/components/cat/WalletCATSend.tsx:117
+#: src/components/WalletSend.tsx:153
+msgid "Cannot send gold to coloured address. Please enter a gold address."
+msgstr "无法将Gold发送到染色地址。请提供一个Gold地址。"
+
+#: src/components/card/WalletCardCRCatRestrictions.tsx:40
+msgid "CAT credential restrictions"
+msgstr "资产代币凭证限制"
+
+#: src/components/WalletsSidebar.tsx:130
+#~ msgid "Check my snapshot balance"
+#~ msgstr "Check my snapshot balance"
+
+#: src/components/WalletHistoryClawbackChip.tsx:68
+msgid "Claim transaction"
+msgstr "确认交易"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:138
+#: src/components/ClawbackClaimTransactionDialog.tsx:267
+msgid "Claim Transaction"
+msgstr "确认交易"
+
+#: src/components/WalletHistoryClawbackChip.tsx:83
+msgid "Claiming..."
+msgstr "确认中..."
+
+#: src/components/WalletIcon.tsx:17
+msgid "Classic version of Stably USDS as held by Prime Trust"
+msgstr "由Prime Trust持有、Stably发行的旧版USDS"
+
+#: src/components/WalletHistory.tsx:433
+msgid "Claw back expiration"
+msgstr "可撤回有效期"
+
+#: src/components/WalletHistoryClawbackChip.tsx:94
+msgid "Claw back this transaction"
+msgstr "撤回这笔交易"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:267
+msgid "Claw back Transaction"
+msgstr "撤回交易"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:138
+msgid "Claw Back Transaction"
+msgstr "撤回交易"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:130
+msgid "Clawback payment claimed"
+msgstr "已确认的可撤回交易"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:130
+msgid "Clawback payment clawed back"
+msgstr "已取消的可撤回交易"
+
+#: src/components/WalletSend.tsx:334
+msgid "Clawback will be applied."
+msgstr "可撤回交易注意事项!"
+
+#: src/components/WalletSend.tsx:344
+msgid "Clawback will not be applied."
+msgstr "不会执行可撤回交易。"
+
+#: src/components/WalletHistoryClawbackChip.tsx:109
+msgid "Clawing back..."
+msgstr "正在撤回交易..."
+
+#: src/components/WalletsSidebar.tsx:141
+#~ msgid "Click here to download an older version of the wallet"
+#~ msgstr "Click here to download an older version of the wallet"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:159
+#: src/components/ClawbackClaimTransactionDialog.tsx:256
+#: src/components/crCat/CrCatApprovePendingDialog.tsx:136
+msgid "Close"
+msgstr "关闭"
+
+#: src/components/WalletHeader.tsx:25
+msgid "Confirmation"
+msgstr "确认"
+
+#: src/components/WalletHistory.tsx:200
+msgid "Confirmed"
+msgstr "已确认"
+
+#: src/components/WalletHistory.tsx:422
+msgid "Confirmed at Height"
+msgstr "确认于区块高度"
+
+#: src/components/WalletConnections.tsx:47
+msgid "Connection type"
+msgstr "连接类型"
+
+#: src/components/nftRecover/NFTRecover.tsx:148
+msgid "contract address"
+msgstr ""
+
+#: src/components/WalletReceiveAddressField.tsx:71
+msgid "Copied"
+msgstr "已复制"
+
+#: src/components/WalletReceiveAddressField.tsx:75
+msgid "Copy wallet address"
+msgstr "复制钱包地址"
+
+#: src/components/cat/WalletCATSelect.tsx:32
+msgid "Create New Wallet"
+msgstr "新建钱包"
+
+#: src/components/cat/WalletCAT.tsx:106
+#: src/components/standard/WalletStandard.tsx:53
+msgid "Create Offer"
+msgstr "创建报价"
+
+#: src/components/cat/WalletCATSend.tsx:178
+#: src/components/WalletSend.tsx:213
+msgid "Create Transaction"
+msgstr "发起交易"
+
+#: src/components/WalletHistory.tsx:223
+msgid "Creation Date"
+msgstr "创建日期"
+
+#: src/constants/WalletName.ts:20
+msgid "Custody Wallet"
+msgstr "托管钱包"
+
+#: src/components/cat/WalletCATCreateSimple.tsx:100
+msgid "Custom"
+msgstr "自定义"
+
+#: src/constants/WalletName.ts:38
+msgid "Datalayer Wallet"
+msgstr "数据层钱包"
+
+#: src/components/WalletHistory.tsx:100
+#~ msgid "Date"
+#~ msgstr "Date"
+
+#: src/components/WalletHeader.tsx:26
+msgid "Delete"
+msgstr "删除"
+
+#: src/components/WalletHeader.tsx:68
+msgid "Delete Unconfirmed Transactions"
+msgstr "删除未确认的交易"
+
+#: src/components/card/WalletCardTotalBalance.tsx:68
+msgid "Derivation Index: {0}"
+msgstr "派生索引: {0}"
+
+#: src/constants/WalletName.ts:29
+msgid "DID Wallet"
+msgstr "DID钱包"
+
+#: src/components/WalletSend.tsx:327
+msgid "Disable"
+msgstr "禁用"
+
+#: src/components/create/WalletCreateList.tsx:39
+msgid "Distributed Identity"
+msgstr "分布式身份认证"
+
+#: src/components/WalletImport.tsx:157
+msgid "Enter the {mnemonicWordCount} word mnemonic that you have saved in order to restore your Gold wallet."
+msgstr "请输入你保存的{mnemonicWordCount} 个助记词来恢复Gold钱包。"
+
+#: src/components/cat/WalletCATSend.tsx:127
+msgid "Error the entered address appears to be for a different colour."
+msgstr "错误，输入的地址似乎有不同的颜色。"
+
+#: src/components/nftRecover/NFTRecover.tsx:94
+msgid "FAILED"
+msgstr ""
+
+#: src/components/cat/WalletCATSend.tsx:252
+#: src/components/WalletSend.tsx:390
+msgid "Farm"
+msgstr "农场"
+
+#: src/components/cat/WalletCATSend.tsx:228
+#: src/components/stake/StakeFrom.tsx:154
+#: src/components/stake/StakeSend.tsx:154
+#: src/components/WalletHistory.tsx:237
+#: src/components/WalletSend.tsx:254
+msgid "Fee"
+msgstr "手续费"
+
+#: src/components/nftRecover/NFTRecover.tsx:136
+msgid "Find"
+msgstr ""
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:183
+msgid "From:"
+msgstr "来自："
+
+#: src/components/cat/WalletCATSelect.tsx:25
+#: src/components/create/WalletCreateList.tsx:32
+#: src/constants/WalletName.ts:23
+msgid "Gold Asset Token"
+msgstr "Gold资产代币"
+
+#: src/components/WalletReceiveAddress.tsx:32
+msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefore wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
+msgstr "HD（分层确定性）密钥是一种公钥/私钥方案，其中一个私钥可以有几乎无限数量的不同公钥（因此也有多个钱包接收地址），而所有这些地址最终都可以由单个私钥进行支出。"
+
+#: src/components/WalletSendTransactionResultDialog.tsx:47
+msgid ""
+"If you would like to speed up the transaction, please delete unconfirmed transactions and retry with a\n"
+"higher fee."
+msgstr "如果希望加快交易速度，请删除未确认的交易，并使用更高的手续费重试。"
+
+#: src/components/WalletSendTransactionResultDialog.tsx:41
+#~ msgid "If you would like to speed up the transaction, please delete unconfirmed transactions and retry with a higher fee."
+#~ msgstr "If you would like to speed up the transaction, please delete unconfirmed transactions and retry with a higher fee."
+
+#: src/components/PasteMnemonic.tsx:79
+msgid "Import"
+msgstr "导入"
+
+#: src/components/WalletImport.tsx:225
+msgid "Import from {alternativeWordCount} word mnemonic"
+msgstr "导入{alternativeWordCount} 位助记词"
+
+#: src/components/WalletImport.tsx:140
+msgid "Import Wallet from Mnemonics"
+msgstr "使用助记词导入钱包"
+
+#: src/components/WalletHistory.tsx:87
+#~ msgid "Incoming"
+#~ msgstr "Incoming"
+
+#: src/components/WalletConnections.tsx:22
+msgid "IP address"
+msgstr "IP地址"
+
+#: src/components/nftRecover/NFTRecover.tsx:122
+msgid "Launcher Id"
+msgstr ""
+
+#: src/components/WalletConnections.tsx:71
+msgid "List of connections is empty"
+msgstr "连接列表为空"
+
+#: src/components/WalletsManageTokens.tsx:131
+msgid "Manage token list"
+msgstr "管理代币列表"
+
+#: src/components/cat/WalletCATSend.tsx:242
+#: src/components/WalletSend.tsx:379
+msgid "Memo"
+msgstr "备注"
+
+#: src/components/WalletHistory.tsx:427
+msgid "Memos"
+msgstr "备注"
+
+#: src/components/WalletSendTransactionResultDialog.tsx:16
+msgid "Mempool Conflict"
+msgstr "内存池冲突"
+
+#: src/components/WalletSendTransactionResultDialog.tsx:20
+msgid "Mempool Full"
+msgstr "内存池已满"
+
+#: src/components/WalletConnections.tsx:40
+msgid "MiB Up/Down"
+msgstr "MiB 上传/下载"
+
+#: src/constants/WalletName.ts:17
+msgid "Multi Sig Wallet"
+msgstr "多个签名钱包"
+
+#: src/components/cat/WalletCATCreateExistingSimple.tsx:68
+msgid "Name"
+msgstr "名称"
+
+#: src/components/WalletReceiveAddress.tsx:45
+msgid "New Address"
+msgstr "新地址"
+
+#: src/components/WalletReceiveAddressField.tsx:114
+msgid "New Receive Address"
+msgstr "新接收地址"
+
+#: src/components/WalletAdd.tsx:62
+msgid "New Wallet"
+msgstr "新钱包"
+
+#: src/components/WalletAdd.tsx:122
+#: src/components/WalletImport.tsx:195
+msgid "Next"
+msgstr "下一步"
+
+#: src/components/nftRecover/NFTRecover.tsx:103
+msgid "NFT Recover"
+msgstr ""
+
+#: src/constants/WalletName.ts:35
+msgid "NFT Wallet"
+msgstr "NFT 钱包"
+
+#: src/components/WalletRenameDialog.tsx:67
+msgid "Nickname"
+msgstr "昵称"
+
+#: src/components/WalletHistory.tsx:504
+msgid "No previous transactions"
+msgstr "无过往交易"
+
+#: src/components/WalletConnections.tsx:18
+msgid "Node ID"
+msgstr "节点ID"
+
+#: src/components/WalletHistory.tsx:416
+#: src/components/WalletHistory.tsx:423
+msgid "Not Available"
+msgstr "不可用"
+
+#: src/components/nftRecover/NFTRecover.tsx:165
+#: src/components/nftRecover/NFTRecover.tsx:166
+msgid "Not Available Balance"
+msgstr ""
+
+#: src/components/nftRecover/NFTRecover.tsx:81
+msgid "not find contract address, Please enter a contract address"
+msgstr ""
+
+#: src/components/WalletStatus.tsx:59
+msgid "Not Synced"
+msgstr "未同步"
+
+#: src/components/WalletHistory.tsx:209
+msgid "Offer Accepted"
+msgstr "已接受报价"
+
+#: src/components/cat/WalletCATTAILDialog.tsx:66
+msgid "OK"
+msgstr "确定"
+
+#: src/components/cat/WalletCATSend.tsx:181
+#: src/components/WalletSend.tsx:216
+msgid "On average there is one minute between each transaction block. Unless there is congestion you can expect your transaction to be included in less than a minute."
+msgstr "每个交易区块平均打包时间为一分钟。通常您的交易将在一分钟内被确认，除非出现拥堵。"
+
+#: src/components/WalletHistory.tsx:87
+#~ msgid "Outgoing"
+#~ msgstr "Outgoing"
+
+#: src/components/WalletImport.tsx:233
+msgid "Paste Mnemonic"
+msgstr "粘贴助记符"
+
+#: src/components/PasteMnemonic.tsx:53
+msgid "Paste Mnemonic ({0} words)"
+msgstr "粘贴助记词({0} 位)"
+
+#: src/components/crCat/CrCatApprovePendingDialog.tsx:82
+msgid "Payments approved"
+msgstr "支付已批准"
+
+#: src/components/WalletHistory.tsx:202
+msgid "Pending"
+msgstr "待确认"
+
+#: src/components/card/WalletCardPendingBalance.tsx:40
+msgid "Pending Balance"
+msgstr "交易中金额"
+
+#: src/components/card/WalletCardCRCatApprove.tsx:47
+msgid "Pending Balance for Approval"
+msgstr "待批准的余额"
+
+#: src/components/card/WalletCardPendingChange.tsx:41
+msgid "Pending Change"
+msgstr "找零中金额"
+
+#: src/components/WalletHistoryPending.tsx:63
+msgid "Pending claw back transactions"
+msgstr "待确认的可撤回交易"
+
+#: src/components/card/WalletCardPendingTotalBalance.tsx:41
+msgid "Pending Total Balance"
+msgstr "交易完成后总余额"
+
+#: src/components/crCat/CrCatApprovePendingDialog.tsx:83
+msgid "Please allow some time for the payments to reflect in the blockchain."
+msgstr "请等待一些时间让支付在区块链上进行确认。"
+
+#: src/components/crCat/CrCatApprovePendingDialog.tsx:120
+msgid "Please enter a transaction fee to approve the above amount:"
+msgstr "请输入一个交易手续费来批准上述金额："
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:214
+msgid "Please enter a transaction fee to claim the above amount:"
+msgstr "请提供确认的手续费："
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:216
+msgid "Please enter a transaction fee to claw back the above amount:"
+msgstr "请提供撤回的手续费："
+
+#: src/components/cat/WalletCATCreateExistingSimple.tsx:42
+msgid "Please enter a valid asset id"
+msgstr "请输入一个有效的资产ID。"
+
+#: src/components/nftRecover/NFTRecover.tsx:65
+msgid "Please enter a valid NFT Launcher Id"
+msgstr ""
+
+#: src/components/cat/WalletCATSend.tsx:103
+#: src/components/stake/StakeFrom.tsx:79
+#: src/components/stake/StakeSend.tsx:80
+#: src/components/WalletSend.tsx:143
+msgid "Please enter a valid numeric amount"
+msgstr "请输入一个正确的数目"
+
+#: src/components/cat/WalletCATSend.tsx:108
+#: src/components/stake/StakeFrom.tsx:83
+#: src/components/stake/StakeSend.tsx:84
+#: src/components/WalletSend.tsx:148
+msgid "Please enter a valid numeric fee"
+msgstr "请输入一个有效的手续费"
+
+#: src/components/cat/WalletCATCreateExistingSimple.tsx:46
+msgid "Please enter a valid token name"
+msgstr "请输入有效的代币名称"
+
+#: src/components/WalletRenameDialog.tsx:41
+msgid "Please enter valid wallet name"
+msgstr "请输入有效的钱包名称"
+
+#: src/components/cat/WalletCATSend.tsx:94
+#: src/components/stake/StakeFrom.tsx:75
+#: src/components/stake/StakeSend.tsx:75
+#: src/components/WalletSend.tsx:138
+msgid "Please finish syncing before making a transaction"
+msgstr "同步完成后才能发起交易。"
+
+#: src/components/cat/WalletCATCreateExistingSimple.tsx:38
+#: src/components/cat/WalletCATCreateSimple.tsx:38
+msgid "Please wait for wallet synchronization"
+msgstr "请等待钱包同步"
+
+#: src/constants/WalletName.ts:32
+msgid "Pooling Wallet"
+msgstr "联合耕种钱包"
+
+#: src/components/WalletConnections.tsx:28
+msgid "Port"
+msgstr "端口"
+
+#: src/components/crCat/CrCatAuthorizedProviders.tsx:37
+msgid "Provider's ID"
+msgstr "提供商ID"
+
+#: src/components/crCat/CrCatAuthorizedProviders.tsx:51
+msgid "Provider's website"
+msgstr "提供商网站"
+
+#: src/components/create/WalletCreateList.tsx:45
+msgid "Rate Limited"
+msgstr "费用限定"
+
+#: src/components/WalletsSidebar.tsx:133
+#~ msgid "Read the blog post for details"
+#~ msgstr "Read the blog post for details"
+
+#: src/components/WalletHeader.tsx:48
+msgid "Receive"
+msgstr "接收"
+
+#: src/components/WalletReceiveAddress.tsx:29
+msgid "Receive Address"
+msgstr "接收地址"
+
+#: src/components/cat/WalletCATSend.tsx:121
+msgid "Recipient address is not a coloured wallet address. Please enter a coloured wallet address"
+msgstr "收件人地址不是彩色钱包地址。请输入一个彩色钱包地址"
+
+#: src/components/nftRecover/NFTRecover.tsx:191
+msgid "Recover"
+msgstr ""
+
+#: src/constants/WalletName.ts:26
+msgid "Recoverable Wallet"
+msgstr "可恢复的钱包"
+
+#: src/components/nftRecover/NFTRecover.tsx:92
+msgid "Recovered Amount:"
+msgstr ""
+
+#: src/components/cat/WalletCATSelect.tsx:39
+msgid "Recovery Wallet"
+msgstr "恢复钱包"
+
+#: src/components/cat/WalletCAT.tsx:89
+#: src/components/WalletRenameDialog.tsx:61
+msgid "Rename Wallet"
+msgstr "重命名钱包"
+
+#: src/components/WalletIcon.tsx:41
+msgid "Restricted CAT"
+msgstr "受限资产代币"
+
+#: src/components/WalletHistory.tsx:208
+msgid "Retire"
+msgstr "废弃"
+
+#: src/constants/WalletName.ts:8
+msgid "RL Wallet"
+msgstr "RL 钱包"
+
+#: src/components/WalletRenameDialog.tsx:75
+msgid "Save"
+msgstr "保存"
+
+#: src/components/cat/WalletCATTAILDialog.tsx:59
+#: src/components/WalletTokenCard.tsx:177
+msgid "Search on Tail Database"
+msgstr "在Tail Database中搜索"
+
+#: src/components/create/WalletCreateList.tsx:25
+msgid "Select Wallet Type"
+msgstr "选择钱包类别"
+
+#: src/components/cat/WalletCATSend.tsx:263
+#: src/components/WalletHeader.tsx:47
+#: src/components/WalletSend.tsx:401
+msgid "Send"
+msgstr "发送"
+
+#: src/components/cat/WalletCAT.tsx:98
+msgid "Show Asset Id"
+msgstr "显示资产ID"
+
+#: src/components/card/WalletCardSpendableBalance.tsx:41
+msgid "Spendable Balance"
+msgstr "可用余额"
+
+#: src/components/stake/StakeSend.tsx:115
+#: src/components/stake/StakeSend.tsx:170
+msgid "Stake"
+msgstr ""
+
+#: src/components/stake/Stake.tsx:69
+#: src/components/stake/StakeSend.tsx:130
+msgid "Stake Address"
+msgstr ""
+
+#: src/components/stake/Stake.tsx:52
+msgid "Stake Balance"
+msgstr ""
+
+#: src/components/stake/Stake.tsx:42
+msgid "Stake Info"
+msgstr ""
+
+#: src/components/stake/StakeSend.tsx:118
+msgid "Stake will make farming GL easier."
+msgstr ""
+
+#: src/constants/WalletName.ts:5
+msgid "Standard Wallet"
+msgstr "标准钱包"
+
+#: src/components/WalletHistory.tsx:214
+msgid "Status"
+msgstr "状态"
+
+#: src/components/nftRecover/NFTRecover.tsx:93
+msgid "Status:"
+msgstr ""
+
+#: src/components/WalletSendTransactionResultDialog.tsx:12
+msgid "Success"
+msgstr "成功"
+
+#: src/components/nftRecover/NFTRecover.tsx:94
+msgid "SUCCESS"
+msgstr ""
+
+#: src/components/WalletHeader.tsx:46
+msgid "Summary"
+msgstr "摘要"
+
+#: src/components/WalletStatus.tsx:71
+msgid "Synced"
+msgstr "已同步"
+
+#: src/components/WalletStatus.tsx:83
+msgid "Syncing"
+msgstr "正在同步"
+
+#: src/components/card/WalletCardTotalBalance.tsx:70
+msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for GL, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
+msgstr "派生索引设置了钱包在区块链上扫描钱包地址的范围。如果您有大量的交易或取消了的GL、CAT或NFT报价，通常情况下这个数字会更高。如果您认为余额不正确，因为缺少某些币，那么增加派生索引可能有助于钱包将缺失的硬币纳入余额总数中。"
+
+#: src/components/cat/WalletCATSend.tsx:200
+msgid "The recipient of this transaction will need to have valid credentials in order to claim the sent assets. See the CR CAT restrictions above."
+msgstr "交易的接收方将需要有效的凭证才能领取发送的资产。请参阅上面的CR CAT限制。"
+
+#: src/components/WalletSendTransactionResultDialog.tsx:44
+msgid ""
+"The transaction could not be immediately included in the mempool because the specified fee is too low. The\n"
+"transaction will be retried periodically, and may be included in the mempool once fees are lower, or if\n"
+"space becomes available."
+msgstr "由于指定的手续费过低，该交易无法立即添加到内存池中。该交易将定期重试，并在要求的手续费变低或内存池空间可用时被添加到内存池中。"
+
+#: src/components/WalletSendTransactionResultDialog.tsx:34
+#~ msgid "The transaction could not be immediately included in the mempool because the specified fee is too low. The transaction will be retried periodically, and may be included in the mempool once fees are lower, or if space becomes available."
+#~ msgstr "The transaction could not be immediately included in the mempool because the specified fee is too low. The transaction will be retried periodically, and may be included in the mempool once fees are lower, or if space becomes available."
+
+#: src/components/WalletSendTransactionResultDialog.tsx:38
+msgid ""
+"The transaction is pending inclusion in the mempool because it conflicts with one or more other transactions\n"
+"already in the mempool. The transaction will be retried periodically, and may be included in the mempool if\n"
+"the conflicting transactions are removed."
+msgstr "这笔交易暂未添加到内存池中，因为它与内存池中已有的一笔或多笔交易存在冲突。交易将会定期重试，如果冲突的交易被移除，则这笔交易可能会添加到内存池中。"
+
+#: src/components/WalletBadge.tsx:26
+msgid "This access token is verified"
+msgstr "此资产代币已经过验证"
+
+#: src/components/WalletHistory.tsx:175
+msgid "This is not a valid address for sending funds to"
+msgstr "这不是一个可用于发送资金的有效地址"
+
+#: src/components/standard/WalletStandardCards.tsx:23
+msgid "This is the amount of Gold that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Gold that you have just spent but is not yet in the blockchain."
+msgstr "这是当前可以用来进行交易的Gold金额。它不包括待确认的耕种奖励、待确认的转入交易以及刚刚转出但尚未在链上确认的Gold金额。"
+
+#: src/components/standard/WalletStandardCards.tsx:42
+msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
+msgstr "这是待确认的找零金额，是交易中发送给自己但还没有确认的找零硬币。"
+
+#: src/components/standard/WalletStandardCards.tsx:36
+msgid "This is the sum of the incoming and outgoing pending transactions (not yet included into the blockchain). This does not include farming rewards."
+msgstr "这是待确认的收入和支出交易的总和(尚未包含在区块链中)。这不包括耕种奖励。"
+
+#: src/components/standard/WalletStandardCards.tsx:17
+msgid "This is the total amount of gold in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "这是由您的私钥控制的当前最高区块上的区块链中的Gold总量。它包括冻结的耕种奖励，但不包括未确认的转入和转出交易。"
+
+#: src/components/standard/WalletStandardCards.tsx:30
+msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
+msgstr "这是总余额+交易中金额，即：待确认的交易完成后的总金额。"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:201
+msgid "This transaction will be automatically claimed with a fee:"
+msgstr "此交易将自动用以下手续费进行确认："
+
+#: src/components/WalletHistory.tsx:181
+#~ msgid "To"
+#~ msgstr "To"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:183
+#: src/components/WalletHistory.tsx:168
+msgid "To:"
+msgstr "发送到："
+
+#: src/components/cat/WalletCATCreateSimple.tsx:46
+msgid "Token has empty asset id"
+msgstr "代币ID为空"
+
+#: src/components/cat/WalletCATCreateSimple.tsx:42
+msgid "Token has empty name"
+msgstr "代币名称为空"
+
+#: src/components/WalletsSidebar.tsx:104
+msgid "Tokens"
+msgstr "代币"
+
+#: src/components/card/WalletCardTotalBalance.tsx:60
+#: src/components/nftRecover/NFTRecover.tsx:157
+#: src/components/nftRecover/NFTRecover.tsx:158
+msgid "Total Balance"
+msgstr "总余额"
+
+#: src/components/WalletSendTransactionResultDialog.tsx:31
+msgid "Transaction has successfully been sent to a full node and included in the mempool."
+msgstr "交易已成功发送到全节点，且已添加到内存池中。"
+
+#: src/components/WalletHistory.tsx:481
+msgid "Transactions"
+msgstr "交易"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:240
+msgid "Transactions will be claimed automatically when the Clawback time expires."
+msgstr "当可撤回时间到期时，交易将自动确认。"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:243
+msgid "Transactions with values smaller than the fee will not be auto claimed."
+msgstr "小于手续费的交易将不会自动确认。"
+
+#: src/components/nftRecover/NFTRecover.tsx:106
+msgid "visiting the Pool tab of your CHIA-GUI. using this command: chia plotNFT show. Note: you have to do this on the CHIA client, not the fork!"
+msgstr ""
+
+#: src/components/Wallet.tsx:23
+msgid "Wallet {walletId} not found"
+msgstr "未找到钱包 {walletId}"
+
+#: src/components/WalletConnections.tsx:67
+msgid "Wallet Connections"
+msgstr "钱包连接"
+
+#: src/components/cat/WalletCAT.tsx:68
+msgid "Wallet does not exists"
+msgstr "钱包不存在"
+
+#: src/components/WalletAdd.tsx:99
+#: src/components/WalletImport.tsx:147
+msgid "Wallet Name"
+msgstr "钱包名称"
+
+#: src/components/crCat/CrCatApprovePendingDialog.tsx:115
+msgid "Wallet needs to be synced before approving transactions"
+msgstr "在批准交易之前需要同步钱包"
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:208
+msgid "Wallet needs to be synced for claiming clawback transactions"
+msgstr "需要同步钱包才能确认可撤回交易"
+
+#: src/components/Wallet.tsx:38
+msgid "Wallet with type {0} not supported"
+msgstr "不支持类型 {0} 的钱包"
+
+#: src/components/WalletsSidebar.tsx:138
+#~ msgid "Want to see your old balance for yourself?"
+#~ msgstr "Want to see your old balance for yourself?"
+
+#: src/components/WalletsSidebar.tsx:110
+#~ msgid "We've made an upgrade to the CAT standard which requires all CATs to be re-issued. You will be airdropped your new tokens as they are re-issued by the original issuers. The airdropped tokens will be based on the balance as of block height:<0/><1/><2/>(Approximate time: July 26th, 2022 @ 17:00 UTC)"
+#~ msgstr "We've made an upgrade to the CAT standard which requires all CATs to be re-issued. You will be airdropped your new tokens as they are re-issued by the original issuers. The airdropped tokens will be based on the balance as of block height:<0/><1/><2/>(Approximate time: July 26th, 2022 @ 17:00 UTC)"
+
+#: src/components/WalletAdd.tsx:65
+msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
+msgstr "欢迎！以下是用于备份您的钱包的单词。如果没有它们，将无法访问您的钱包，请妥善保管！请将每个单词与其顺序号一起写下。（顺序很重要）"
+
+#: src/components/WalletHistoryClawbackChip.tsx:56
+msgid "Will be autoclaimed in "
+msgstr "将自动确认于 "
+
+#: src/components/stake/StakeFrom.tsx:115
+#: src/components/stake/StakeFrom.tsx:170
+msgid "Withdraw"
+msgstr ""
+
+#: src/components/ClawbackClaimTransactionDialog.tsx:246
+msgid "You can change the Clawback Auto Claim fee in Settings."
+msgstr "可以在设置中更改可撤回交易自动确认的手续费。"
+
+#: src/components/nftRecover/NFTRecover.tsx:174
+msgid "You can only claim rewards older than 7 days"
+msgstr ""
+
+#: src/components/crCat/CrCatFlags.tsx:71
+msgid "You do not have this verifiable credential or it is not from the correct authorized provided"
+msgstr "您没有这个可验证证件，或者它不是来自正确的授权提供者。"
+
+#: src/components/crCat/CrCatFlags.tsx:69
+msgid "You have this verifiable credential from the correct authorized provider"
+msgstr "您拥有来自正确授权提供者的这个可验证证件"
+
+#: src/components/WalletsSidebar.tsx:106
+#~ msgid "Your CAT tokens have been upgraded!"
+#~ msgstr "Your CAT tokens have been upgraded!"
+
+#: src/components/WalletImport.tsx:73
+msgid "Your pasted list does not include {mnemonicWordCount} valid mnemonic words."
+msgstr "粘贴列表中未包含 {mnemonicWordCount} 个有效助记词。"

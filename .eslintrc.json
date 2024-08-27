@@ -1,0 +1,182 @@
+// To add or update the rule, please make a separate PR with only this file changed
+// PRs where a rule is changed within a lager PR will be rejected.
+//
+// To print currently used rules (AirBnB + our overrides) run:
+// npx eslint --print-config .eslintrc.json
+{
+  "extends": [
+    // airbnb is replaced with airbnb-base and airbnb/rules/react to exclude jsx-a11y
+    "airbnb-base",
+    "airbnb/rules/react",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "plugin:eslint-comments/recommended",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "project": "./packages/*/tsconfig.eslint.json"
+  },
+  // Allow electron to be only a devDependency instead of normal dependency
+  "settings": {
+    "import/core-modules": ["electron"]
+  },
+  "plugins": ["unicorn"],
+  // Airbnb rule overrides and additions
+  "rules": {
+    // Automatically order imports
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal", "parent", "sibling"],
+        "alphabetize": { "order": "asc" },
+        "newlines-between": "always"
+      }
+    ],
+    // Already taken care of by import/order. This must stay here, so require(); is before any import
+    "import/first": "off",
+    // Require a reason for disabling a rule via disable-line
+    "eslint-comments/require-description": "error",
+    // Do not allow unused disable-line
+    "eslint-comments/no-unused-disable": "error",
+    // Allow single line disables (overrides the eslint-comments defaults)
+    "eslint-comments/disable-enable-pair": "off",
+    // We use TS instead of prop-types
+    "react/prop-types": "off",
+    // TS takes care of this
+    // .defaultProps are deprecated for functional components: https://github.com/facebook/react/pull/16210
+    // "functions":  "defaultArguments" was not used since it requires to do the props destructuring in the function signature
+    "react/require-default-props": "off",
+    // We do not see the value of this turned on
+    "no-plusplus": "off",
+    // We do not see the value of this turned on
+    "react/jsx-props-no-spreading": "off",
+    // We do not see the value of this turned on
+    "react/destructuring-assignment": "off",
+    // Only functions can be used before assigning
+    "@typescript-eslint/no-use-before-define": ["error", { "functions": false, "classes": false, "variables": true }],
+    // Add additional directories to the default airbnb list
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          // these are defaults from airbnb
+          "test/**",
+          "tests/**",
+          "spec/**",
+          "**/__tests__/**",
+          "**/__mocks__/**",
+          "test.{js,jsx}",
+          "test-*.{js,jsx}",
+          "**/*{.,_}{test,spec}.{js,jsx}",
+          "**/jest.config.js",
+          "**/jest.setup.js",
+          "**/vue.config.js",
+          "**/webpack.config.js",
+          "**/webpack.config.*.js",
+          "**/rollup.config.js",
+          "**/rollup.config.*.js",
+          "**/gulpfile.js",
+          "**/gulpfile.*.js",
+          "**/Gruntfile{,.js}",
+          "**/protractor.conf.js",
+          "**/protractor.conf.*.js",
+          "**/karma.conf.js",
+          "**/.eslintrc.js",
+
+          // These are our custom additions
+          // Add any directory or file here that is used in development or CI only
+          "**/@types/**",
+          "**/test/**",
+          "**/tests/**",
+          "**/cypress/**",
+          "**/*.test.ts",
+          "**/vite.config.ts",
+          "**/babel.config.js",
+          "**/playwright.config.js",
+          // You can change the file name extension to .dev.ts to avoid the: "XX should be listed in the project's dependencies, not devDependencies."
+          "**/*.dev.{js,jsx,ts,tsx}"
+        ],
+        "optionalDependencies": true
+      }
+    ],
+
+    // The airbnb default has ignoreCase: true
+    "react/jsx-no-duplicate-props": ["error", { "ignoreCase": false }],
+    // We often want named export even if there is only one at the beginning
+    "import/prefer-default-export": "off",
+    // So we do not forget to remove console.logs after debugging
+    "no-console": ["error", { "allow": ["warn", "error", "info"] }],
+    // Better readability
+    "react/no-unescaped-entities": "off",
+    // Useless - the warning that it is dangerous is in the property name
+    "react/no-danger": "off",
+    // Prettier will make it obvious that its a nested ternary
+    "no-nested-ternary": "off",
+    // We do not see the value of this turned on
+    "prefer-rest-params": "off",
+    // These issues should be decided and reported in typescript config
+    "@typescript-eslint/no-explicit-any": "off",
+    // Adding _ will bypass no-used issues
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": true,
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    // required for TS where string does not satisfy the expected return type of JSX.Element
+    "react/jsx-no-useless-fragment": ["error", { "allowExpressions": true }],
+    // Memoizing all prop callbacks would speed up the app but introduce a hard to debug bugs (wrong memo dependencies)
+    "react/jsx-no-bind": "off",
+    // This code should be allowed `export { default } from './Link';`
+    // Remove "no-restricted-exports" after eslint fixes issue https://github.com/eslint/eslint/issues/15617
+    "no-restricted-exports": [
+      "error",
+      {
+        "restrictedNamedExports": ["then"]
+      }
+    ],
+    // We use a lot of large numbers. This rule enforce large number has to use separator. Example: 1_000_000
+    "unicorn/numeric-separators-style": "error",
+    // Airbnb is too restrictive
+    "@typescript-eslint/no-unused-expressions": [
+      "error",
+      {
+        "allowShortCircuit": true,
+        "allowTernary": true,
+        "allowTaggedTemplates": true,
+        "enforceForJSX": false
+      }
+    ],
+    // We do not see the value of this turned on
+    "class-methods-use-this": "off",
+    // allow for-of loops
+    "no-restricted-syntax": [
+      "error",
+      {
+        "selector": "ForInStatement",
+        "message": "for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array."
+      },
+      {
+        "selector": "LabeledStatement",
+        "message": "Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand."
+      },
+      {
+        "selector": "WithStatement",
+        "message": "`with` is disallowed in strict mode because it makes code impossible to predict and optimize."
+      }
+    ]
+
+    //
+    // ** Before adding or updating any rule, please read the comments at the top of this file
+    //
+  }
+}

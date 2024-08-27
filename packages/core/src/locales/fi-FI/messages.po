@@ -1,0 +1,574 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-02-08 18:51+0100\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fi_FI\n"
+"Project-Id-Version: 1263bc1f20e1271bda78e84d2f4a6562\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2024-04-07 00:04\n"
+"Last-Translator: \n"
+"Language-Team: Finnish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 1263bc1f20e1271bda78e84d2f4a6562\n"
+"X-Crowdin-Project-ID: 1\n"
+"X-Crowdin-Language: fi\n"
+"X-Crowdin-File: /main/packages/core/src/locales/en-US/messages.po\n"
+"X-Crowdin-File-ID: 15\n"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:64
+msgid "(>5 min)"
+msgstr "(>5 min)"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:64
+msgid "(~{selectedTime} min)"
+msgstr "(~{selectedTime} min)"
+
+#: src/components/Amount/Amount.tsx:87
+msgid "{0, plural, one {mojo} other {mojos}}"
+msgstr "{0, plural, one {mojo} other {mojoa}}"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:36
+msgid "{minPassphraseLength, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
+msgstr "{minPassphraseLength, plural, one {Salasanojen on oltava vähintään # merkki pituudeltaan} other {Salasanojen on oltava vähintään # merkkiä pituudeltaan}}"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
+msgid "A new version of Gold is available!"
+msgstr "Uusi versio Goldsta on saatavilla!"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
+msgid "Add Icon"
+msgstr "Lisää Ikoni"
+
+#: src/screens/SelectKey/SelectKey.tsx:174
+msgid "Add wallet"
+msgstr "Lisää Lompakko"
+
+#: src/components/Amount/Amount.tsx:37
+msgid "Amount"
+msgstr "Summa"
+
+#: src/components/Settings/SettingsApp.tsx:94
+msgid "Appearance"
+msgstr "Ulkoasu"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:161
+msgid "Are you sure you want to continue? Type in the fingerprint of this wallet key to confirm deletion."
+msgstr "Oletko varma, että haluat jatkaa? Kirjoita tämän lompakon sormenjälki vahvistaaksesi poistamisen."
+
+#: src/components/FormBackButton/FormBackButton.tsx:15
+#: src/screens/SelectKey/SelectKey.tsx:129
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:173
+msgid "Back"
+msgstr "Takaisin"
+
+#: src/components/ConfirmDialog/ConfirmDialog.tsx:29
+#: src/hooks/useKeyringMigrationPrompt.tsx:18
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:90
+msgid "Cancel"
+msgstr "Peru"
+
+#: src/components/Settings/SettingsApp.tsx:140
+msgid "Check for updates"
+msgstr "Tarkista päivitykset"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:93
+msgid "Checking for updates..."
+msgstr "Tarkistetaan päivityksiä..."
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:47
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:70
+msgid "Close"
+msgstr "Sulje"
+
+#: src/components/FormatConnectionStatus/FormatConnectionStatus.tsx:32
+msgid "Connected"
+msgstr "Yhdistetty"
+
+#: src/components/CopyToClipboard/CopyToClipboard.tsx:42
+msgid "Copied"
+msgstr "Kopioitu"
+
+#: src/components/CopyToClipboard/CopyToClipboard.tsx:42
+msgid "Copy to Clipboard"
+msgstr "Kopioi Leikepöydälle"
+
+#: src/screens/SelectKey/SelectKey.tsx:170
+#~ msgid "Create a new private key"
+#~ msgstr "Create a new private key"
+
+#: src/screens/SelectKey/SelectKey.tsx:274
+msgid "Create a new wallet key"
+msgstr "Luo uusi lompakon avain"
+
+#: src/screens/SelectKey/SelectKey.tsx:266
+msgid "Create a new wallet key to get started with Gold."
+msgstr "Luo uusi lompakon avain päästäksesi alkuun Goldn kanssa."
+
+#: src/screens/SelectKey/SelectKey.tsx:177
+msgid "Create New"
+msgstr "Luo Uusi"
+
+#: src/components/Settings/SettingsApp.tsx:111
+msgid "Dark"
+msgstr "Tumma"
+
+#: src/screens/SelectKey/SelectKey.tsx:128
+#: src/screens/SelectKey/SelectKeyItem.tsx:114
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:183
+msgid "Delete"
+msgstr "Poista"
+
+#: src/screens/SelectKey/SelectKey.tsx:127
+msgid "Delete all keys"
+msgstr "Poista kaikki avaimet"
+
+#: src/screens/SelectKey/SelectKey.tsx:202
+msgid "Delete All Keys"
+msgstr "Poista Kaikki Avaimet"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:113
+msgid "Delete key {fingerprint}"
+msgstr "Poista avain {fingerprint}"
+
+#: src/screens/SelectKey/SelectKey.tsx:133
+msgid "Deleting all keys will permanently remove the keys from your computer, make sure you have backups. Are you sure you want to continue?"
+msgstr "Avainten poisto poistaa ne tietokoneeltasi. Varmista että sinulla on varmuuskopio. Haluatko jatkaa?"
+
+#: src/screens/SelectKey/SelectKeyItem.tsx:106
+msgid "Details"
+msgstr "Lisätiedot"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:60
+msgid "Disable"
+msgstr "Poista Käytöstä"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:59
+msgid "Disable Passphrase Protection"
+msgstr "Poista Salasanasuojaus Käytöstä"
+
+#: src/components/Back/Back.tsx:37
+#: src/components/FormBackButton/FormBackButton.tsx:28
+msgid "Discard"
+msgstr "Hylkää"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:148
+msgid "Download"
+msgstr "Lataa"
+
+#: src/components/CardSimple/CardSimple.tsx:52
+#: src/hooks/useShowError.tsx:14
+msgid "Error"
+msgstr "Virhe"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+msgid "Error:"
+msgstr "Virhe:"
+
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:91
+msgid "Esc"
+msgstr "Poistu"
+
+#: src/components/LayoutMain/LayoutFooter.tsx:49
+msgid "FAQ"
+msgstr "UKK"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:90
+msgid "Farmer Public Key"
+msgstr "Farmarin julkinen avain"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:58
+msgid "Farmer public key:"
+msgstr "Farmarin julkinen avain:"
+
+#: src/components/Settings/SettingsApp.tsx:79
+msgid "Farming"
+msgstr "Farmarointi"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:338
+#: src/components/EstimatedFee/EstimatedFee.tsx:372
+#: src/components/Fee/Fee.tsx:44
+msgid "Fee"
+msgstr "Maksu"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:98
+msgid "Fingerprint does not match"
+msgstr "Sormenjälki ei täsmää"
+
+#: src/components/Settings/SettingsApp.tsx:152
+msgid "Frequently Asked Questions"
+msgstr "Usein Kysytyt Kysymykset"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:121
+msgid "Go To Download Page"
+msgstr "Siirry Lataussivulle"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
+msgid "Gold {latestVersion} is currently the latest version available."
+msgstr "Gold {latestVersion} on tällä hetkellä uusin versio."
+
+#: src/components/Settings/SettingsApp.tsx:126
+msgid "Gold Application Version:"
+msgstr "Gold-sovelluksen Versio:"
+
+#: src/components/Settings/SettingsApp.tsx:148
+msgid "Help"
+msgstr "Apuja"
+
+#: src/components/LocaleToggle/LocaleToggle.tsx:61
+msgid "Help translate"
+msgstr "Auta kääntämisessä"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:124
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:146
+msgid "Hide"
+msgstr "Piilota"
+
+#: src/components/AdvancedOptions/AdvancedOptions.tsx:27
+msgid "Hide Advanced Options"
+msgstr "Piilota Lisävalinnat"
+
+#: src/screens/SelectKey/SelectKey.tsx:182
+msgid "Import Existing"
+msgstr "Tuo Olemassaoleva"
+
+#: src/screens/SelectKey/SelectKey.tsx:181
+#~ msgid "Import from Mnemonics (12 or 24 words)"
+#~ msgstr ""
+
+#: src/components/Fee/Fee.tsx:32
+msgid "Incorrect value"
+msgstr "Virheellinen arvo"
+
+#: src/components/Settings/SettingsApp.tsx:118
+msgid "Language"
+msgstr "Kieli"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:57
+msgid "Latest Version:"
+msgstr "Viimeisin Versio:"
+
+#: src/components/Settings/SettingsApp.tsx:103
+msgid "Light"
+msgstr "Vaalea"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:227
+msgid "Likely in {0} seconds"
+msgstr "Todennäköisesti {0} sekunnissa"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:224
+msgid "Likely in {minutes} minutes"
+msgstr "Todennäköisesti {minutes} minuutissa"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:226
+msgid "Likely in >5 minutes"
+msgstr "Todennäköisesti >5 minuutissa"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:46
+msgid "Loading details"
+msgstr "Ladataan lisätietoja"
+
+#: src/screens/SelectKey/SelectKey.tsx:236
+msgid "Loading keys"
+msgstr "Ladataan avaimia"
+
+#: src/screens/SelectKey/SelectKey.tsx:117
+#~ msgid "Loading list of the keys"
+#~ msgstr "Loading list of the keys"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:317
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:336
+#~ msgid "Log Out"
+#~ msgstr ""
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:335
+#~ msgid "Logout"
+#~ msgstr ""
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:17
+msgid "Migrate"
+msgstr "Siirrä"
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:16
+msgid "Migration required"
+msgstr "Siirto vaaditaan"
+
+#: src/components/Settings/SettingsApp.tsx:70
+msgid "Mode"
+msgstr "Tila"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:107
+msgid "NEVER SHARE THESE WITH ANYONE"
+msgstr "ÄLÄ KOSKAAN JAA NÄITÄ KENELLEKÄÄN"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:42
+msgid "New passphrase is the same as your current passphrase"
+msgstr "Uusi salasana on sama kuin nykyinen salasana"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:133
+msgid "New version {latestVersion} available"
+msgstr "Uusi versio {latestVersion} saatavilla"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:84
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:138
+msgid "No 24 word seed, since this key is imported."
+msgstr "Tuotu avain, ei 24 muistisanaa."
+
+#: src/components/FormatConnectionStatus/FormatConnectionStatus.tsx:33
+msgid "Not connected"
+msgstr "Ei yhteyttä"
+
+#: src/screens/SelectKey/WalletStatus.tsx:61
+#~ msgid "Not Synced"
+#~ msgstr ""
+
+#: src/components/AlertDialog/AlertDialog.tsx:23
+#: src/components/ConfirmDialog/ConfirmDialog.tsx:30
+msgid "OK"
+msgstr "OK"
+
+#: src/screens/SelectKey/SelectKey.tsx:258
+msgid "Open a world of possibilities."
+msgstr "Avaa mahdollisuuksien maailma."
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:98
+msgid "Pool Public Key"
+msgstr "Poolin Julkinen Avain"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:66
+msgid "Pool public key:"
+msgstr "Poolin julkinen avain:"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:27
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:34
+msgid "Private key {fingerprint}"
+msgstr "Yksityinen avain {fingerprint}"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:42
+msgid "Private key:"
+msgstr "Yksityinen avain:"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:82
+msgid "Public Key"
+msgstr "Julkinen avain"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:50
+msgid "Public key:"
+msgstr "Julkinen avain:"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:289
+msgid "Random"
+msgstr "Satunnainen"
+
+#: src/components/Fee/Fee.tsx:18
+msgid "Recommended value: 0.000005"
+msgstr "Suositeltu arvo: 0.000005"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:71
+msgid "Release Notes"
+msgstr "Version Muutokset"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+msgid "Reload Application"
+msgstr "Uudelleenkäynnistä Sovellus"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
+msgid "Remove Icon"
+msgstr "Poista Kuvake"
+
+#: src/screens/SelectKey/SelectKeyItem.tsx:98
+msgid "Rename"
+msgstr "Nimeä uudelleen"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+msgid "Report an Issue"
+msgstr "Raportoi Ongelma"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:124
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:146
+msgid "Reveal"
+msgstr "Näytä"
+
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:109
+msgid "Save"
+msgstr "Tallenna"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:182
+#: src/screens/SelectKey/Search.tsx:34
+msgid "Search"
+msgstr "Etsi"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:113
+msgid "Secret Key"
+msgstr "Salainen avain"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:131
+msgid "Seed Phrase"
+msgstr "Avainsanat"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:76
+msgid "Seed:"
+msgstr "Siemenarvo:"
+
+#: src/screens/SelectKey/SelectKey.tsx:134
+#~ msgid "Select Key"
+#~ msgstr "Select Key"
+
+#: src/components/Dropdown/Dropdown.tsx:28
+msgid "Select..."
+msgstr "Valitse..."
+
+#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/Settings/SettingsApp.tsx:155
+msgid "Send Feedback"
+msgstr "Lähetä palautetta"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:53
+msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
+msgstr "Salasanan asettaminen on erittäin suositeltavaa avaimien suojaamiseksi. Oletko varma, että haluat ohittaa salasanan asettamisen?"
+
+#: src/components/Settings/Settings.tsx:50
+#: src/components/Settings/Settings.tsx:60
+msgid "Settings"
+msgstr "Asetukset"
+
+#: src/components/AdvancedOptions/AdvancedOptions.tsx:26
+msgid "Show Advanced Options"
+msgstr "Näytä Lisävalinnat"
+
+#: src/screens/SelectKey/SelectKey.tsx:139
+#~ msgid "Sign In"
+#~ msgstr "Sign In"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:136
+#: src/hooks/useValidateChangePassphraseParams.tsx:51
+msgid "Skip"
+msgstr "Ohita"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:50
+msgid "Skip Passphrase Protection"
+msgstr "Ohita Salasanalauseiden Suojaus"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+msgid "Something went wrong"
+msgstr "Jokin meni pieleen"
+
+#: src/screens/SelectKey/WalletStatus.tsx:73
+#~ msgid "Synced"
+#~ msgstr ""
+
+#: src/screens/SelectKey/WalletStatus.tsx:85
+#~ msgid "Syncing"
+#~ msgstr ""
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:29
+msgid "The provided passphrase and confirmation do not match"
+msgstr "Annettu salasana ja vahvistus eivät täsmää"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:143
+msgid "This key is used for a wallet that may have a non-zero balance. By deleting this key you may lose access to this wallet"
+msgstr "Varoitus: Tätä avainta käytetään lompakossa, jossa voi olla saldoa. Poistamalla tämän avaimen voit menettää pääsyn tähän lompakkoon"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:125
+msgid "This key is used for your farming rewards address. By deleting this key you may lose access to any future farming rewards"
+msgstr "Varoitus: tätä avainta käytetään farmarin palkinto-osoitteeseen. Poistamalla tämän avaimen voit menettää pääsyn tuleviin farmaripalkkioihin"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:134
+msgid "This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
+msgstr "Varoitus: tätä avainta käytetään poolin palkinto-osoitteeseen. Poistamalla tämän avaimen voit menettää pääsyn tuleviin poolipalkkioihin"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:155
+msgid "This will permanently remove the key from your computer, make sure you have your mnemonic phrase backed up."
+msgstr "Tämä poistaa avaimen pysyvästi tietokoneeltasi, varmista, että sinulla on mnemoninen lause varmuuskopioitu."
+
+#: src/utils/getTransactionResult.ts:40
+msgid "Transaction has been sent to a full node and is pending inclusion into the mempool. {0}"
+msgstr "Transaktio on lähetetty noodille ja odottaa sisällyttämistä mempooliin. {0}"
+
+#: src/utils/getTransactionResult.ts:15
+msgid "Transaction has not been sent to node yet"
+msgstr "Transaktioita ei ole vielä lähetetty noodiin"
+
+#: src/utils/getTransactionResult.ts:33
+#~ msgid "Transaction has sent to a full node and is pending inclusion into the mempool. {0}"
+#~ msgstr "Transaction has been sent to a full node and is pending inclusion into the mempool. {0}"
+
+#: src/utils/getTransactionResult.ts:24
+msgid "Transaction has successfully been sent to a full node and included in the mempool."
+msgstr "Transaktio on onnistuneesti lähetetty noodille ja sisällytetty mempooliin."
+
+#: src/screens/SelectKey/SelectKey.tsx:243
+msgid "Try Again"
+msgstr "Yritä uudelleen"
+
+#: src/screens/SelectKey/SelectKey.tsx:247
+msgid "Unable to load keys"
+msgstr "Avaimia ei voi ladata"
+
+#: src/screens/SelectKey/SelectKey.tsx:128
+#~ msgid "Unable to load the list of the keys"
+#~ msgstr "Unable to load the list of the keys"
+
+#: src/components/LocaleToggle/LocaleToggle.tsx:44
+msgid "Unknown"
+msgstr "Tuntematon"
+
+#: src/components/Back/Back.tsx:36
+#: src/components/FormBackButton/FormBackButton.tsx:27
+msgid "Unsaved Changes"
+msgstr "Tallentamattomia muutoksia"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:62
+msgid "Using a passphrase is strongly recommended to protect your keys. Are you sure you want to disable passphrase protection?"
+msgstr "Salasanan asettaminen on erittäin suositeltavaa avaimien suojaamiseksi. Oletko varma, että haluat ohittaa salasanan asettamisen?"
+
+#: src/components/Fee/Fee.tsx:24
+msgid "Value seems high"
+msgstr "Arvo vaikuttaa suurelta"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:233
+#: src/components/Settings/SettingsApp.tsx:87
+msgid "Wallet"
+msgstr "Lompakot"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:63
+#: src/screens/SelectKey/SelectKeyItem.tsx:234
+msgid "Wallet {0}"
+msgstr "Lompakko {0}"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:166
+msgid "Wallet Fingerprint"
+msgstr "Lompakon Sormenjälki"
+
+#: src/screens/SelectKey/SelectKey.tsx:223
+msgid "Wallet Keys"
+msgstr "Lompakon Avaimet"
+
+#: src/screens/SelectKey/SelectKey.tsx:142
+#~ msgid "Welcome to Gold. Please log in with an existing key, or create a new key."
+#~ msgstr "Welcome to Gold. Please log in with an existing key, or create a new key."
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:142
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
+msgid "What's New"
+msgstr "Mitä Uutta"
+
+#: src/components/Back/Back.tsx:40
+#: src/components/FormBackButton/FormBackButton.tsx:31
+msgid "You have made changes. Do you want to discard them?"
+msgstr "Olet tehnyt muutoksia. Haluatko hylätä ne?"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:97
+msgid "You're up to date"
+msgstr "Olet ajan tasalla"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:49
+msgid "Your Current Version:"
+msgstr "Tämänhetkinen Versio:"
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:21
+msgid "Your keys have not been migrated to a new keyring. You will be unable to create new keys or delete existing keys until migration completes. Would you like to migrate your keys now?"
+msgstr "Avaimiasi ei ole siirretty uuteen avainrenkaaseen. Et voi luoda uusia avaimia tai poistaa olemassa olevia avaimia ennen kuin siirto on tehty. Haluatko siirtää avaimesi nyt?"

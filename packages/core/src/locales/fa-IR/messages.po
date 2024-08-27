@@ -1,0 +1,576 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-02-08 18:51+0100\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: fa_IR\n"
+"Project-Id-Version: 1263bc1f20e1271bda78e84d2f4a6562\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2024-05-15 21:19\n"
+"Last-Translator: \n"
+"Language-Team: Persian\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 1263bc1f20e1271bda78e84d2f4a6562\n"
+"X-Crowdin-Project-ID: 1\n"
+"X-Crowdin-Language: fa\n"
+"X-Crowdin-File: /main/packages/core/src/locales/en-US/messages.po\n"
+"X-Crowdin-File-ID: 15\n"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:64
+msgid "(>5 min)"
+msgstr "(> 5 دقیقه)"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:64
+msgid "(~{selectedTime} min)"
+msgstr "(~{selectedTime} min)"
+
+#: src/components/Amount/Amount.tsx:87
+msgid "{0, plural, one {mojo} other {mojos}}"
+msgstr "{0, plural, one {mojo} other {mojos}}"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:36
+msgid "{minPassphraseLength, plural, one {Passphrases must be at least # character in length} other {Passphrases must be at least # characters in length}}"
+msgstr "{minPassphraseLength, plural,one {طول کارکتر رمز ورود باید حداقل # باشد} other {طول کارکترهای رمز ورود باید حداقل # باشند}}"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:95
+msgid "A new version of Gold is available!"
+msgstr "نسخه جدید چیا در دسترس است"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
+msgid "Add Icon"
+msgstr "اصافه نمودن نماد"
+
+#: src/screens/SelectKey/SelectKey.tsx:174
+msgid "Add wallet"
+msgstr "اضافه نمودن کیف پول"
+
+#: src/components/Amount/Amount.tsx:37
+msgid "Amount"
+msgstr "مبلغ"
+
+#: src/components/Settings/SettingsApp.tsx:94
+msgid "Appearance"
+msgstr "ظاهر برنامه"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:161
+msgid "Are you sure you want to continue? Type in the fingerprint of this wallet key to confirm deletion."
+msgstr "آیا مطمئن هستید که میخواهید ادامه دهید؟ برای تایید حذف، کلمات کد این کلید کیف پول را تایپ کنید."
+
+#: src/components/FormBackButton/FormBackButton.tsx:15
+#: src/screens/SelectKey/SelectKey.tsx:129
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:173
+msgid "Back"
+msgstr "بازگشت"
+
+#: src/components/ConfirmDialog/ConfirmDialog.tsx:29
+#: src/hooks/useKeyringMigrationPrompt.tsx:18
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:90
+msgid "Cancel"
+msgstr "لغو"
+
+#: src/components/Settings/SettingsApp.tsx:140
+msgid "Check for updates"
+msgstr "بروز رسانی را بررسی کنید"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:93
+msgid "Checking for updates..."
+msgstr "بروز رسانی را بررسی کنید..."
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:110
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:47
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:70
+msgid "Close"
+msgstr "بستن"
+
+#: src/components/FormatConnectionStatus/FormatConnectionStatus.tsx:32
+msgid "Connected"
+msgstr "متصل شد"
+
+#: src/components/CopyToClipboard/CopyToClipboard.tsx:42
+msgid "Copied"
+msgstr "کپی شد"
+
+#: src/components/CopyToClipboard/CopyToClipboard.tsx:42
+msgid "Copy to Clipboard"
+msgstr "کپی در حافظه"
+
+#: src/screens/SelectKey/SelectKey.tsx:170
+#~ msgid "Create a new private key"
+#~ msgstr "Create a new private key"
+
+#: src/screens/SelectKey/SelectKey.tsx:274
+msgid "Create a new wallet key"
+msgstr "ایجاد یک کلید کیف پول جدید"
+
+#: src/screens/SelectKey/SelectKey.tsx:266
+msgid "Create a new wallet key to get started with Gold."
+msgstr "برای شروع کار با چیا یک کلید کیف پول جدید ایجاد کنید."
+
+#: src/screens/SelectKey/SelectKey.tsx:177
+msgid "Create New"
+msgstr "ایجاد جدید"
+
+#: src/components/Settings/SettingsApp.tsx:111
+msgid "Dark"
+msgstr "تاریک"
+
+#: src/screens/SelectKey/SelectKey.tsx:128
+#: src/screens/SelectKey/SelectKeyItem.tsx:114
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:183
+msgid "Delete"
+msgstr "حذف"
+
+#: src/screens/SelectKey/SelectKey.tsx:127
+msgid "Delete all keys"
+msgstr "حذف تمامی کلید ها"
+
+#: src/screens/SelectKey/SelectKey.tsx:202
+msgid "Delete All Keys"
+msgstr "حذف تمامی کلید ها"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:113
+msgid "Delete key {fingerprint}"
+msgstr "{fingerprint} حذف کلید"
+
+#: src/screens/SelectKey/SelectKey.tsx:133
+msgid "Deleting all keys will permanently remove the keys from your computer, make sure you have backups. Are you sure you want to continue?"
+msgstr ""
+"حذف همه کلیدها آنها را برای همیشه از روی رایانه شما حذف میکند، مطمئن شوید که نسخه پشتیبان دارید.\n"
+" آیا مطمئنید که میخواهید ادامه دهید؟"
+
+#: src/screens/SelectKey/SelectKeyItem.tsx:106
+msgid "Details"
+msgstr "جزئیات"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:60
+msgid "Disable"
+msgstr "غیر فعال"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:59
+msgid "Disable Passphrase Protection"
+msgstr "محافظت از رمز ورودی را غیرفعال کنید"
+
+#: src/components/Back/Back.tsx:37
+#: src/components/FormBackButton/FormBackButton.tsx:28
+msgid "Discard"
+msgstr "دست برداشتن"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:148
+msgid "Download"
+msgstr "دخیره"
+
+#: src/components/CardSimple/CardSimple.tsx:52
+#: src/hooks/useShowError.tsx:14
+msgid "Error"
+msgstr "خطا"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:72
+msgid "Error:"
+msgstr "خطا:"
+
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:91
+msgid "Esc"
+msgstr "خروج"
+
+#: src/components/LayoutMain/LayoutFooter.tsx:49
+msgid "FAQ"
+msgstr "پاسخ به سوالات"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:90
+msgid "Farmer Public Key"
+msgstr "کلید عمومی فارمر"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:58
+msgid "Farmer public key:"
+msgstr "کلید عمومی فارم کننده:"
+
+#: src/components/Settings/SettingsApp.tsx:79
+msgid "Farming"
+msgstr "درحال فارم"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:338
+#: src/components/EstimatedFee/EstimatedFee.tsx:372
+#: src/components/Fee/Fee.tsx:44
+msgid "Fee"
+msgstr "کارمزد"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:98
+msgid "Fingerprint does not match"
+msgstr "کدها هماهنگی ندارند"
+
+#: src/components/Settings/SettingsApp.tsx:152
+msgid "Frequently Asked Questions"
+msgstr "پرسش ها و پاسخ های متداول"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:121
+msgid "Go To Download Page"
+msgstr "به صفحه ذخیره بروید"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:82
+msgid "Gold {latestVersion} is currently the latest version available."
+msgstr ".در حال حاضر آخرین نسخه موجود است {latestVersion} چیا"
+
+#: src/components/Settings/SettingsApp.tsx:126
+msgid "Gold Application Version:"
+msgstr "نسخه برنامه چیا:"
+
+#: src/components/Settings/SettingsApp.tsx:148
+msgid "Help"
+msgstr "راهنما"
+
+#: src/components/LocaleToggle/LocaleToggle.tsx:61
+msgid "Help translate"
+msgstr "همکاری برای ترجمه"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:124
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:146
+msgid "Hide"
+msgstr "مخفی"
+
+#: src/components/AdvancedOptions/AdvancedOptions.tsx:27
+msgid "Hide Advanced Options"
+msgstr "مخفی کردن گزینه های پیشرفته"
+
+#: src/screens/SelectKey/SelectKey.tsx:182
+msgid "Import Existing"
+msgstr "وارد کردن انچه موجود است"
+
+#: src/screens/SelectKey/SelectKey.tsx:181
+#~ msgid "Import from Mnemonics (12 or 24 words)"
+#~ msgstr ""
+
+#: src/components/Fee/Fee.tsx:32
+msgid "Incorrect value"
+msgstr "اطلاعات نادرست"
+
+#: src/components/Settings/SettingsApp.tsx:118
+msgid "Language"
+msgstr "زبان"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:57
+msgid "Latest Version:"
+msgstr "آخرین نسخه:"
+
+#: src/components/Settings/SettingsApp.tsx:103
+msgid "Light"
+msgstr "روشن"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:227
+msgid "Likely in {0} seconds"
+msgstr "احتمالاً در {0} ثانیه"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:224
+msgid "Likely in {minutes} minutes"
+msgstr "{minutes} احتمالاً در"
+
+#: src/components/EstimatedFee/EstimatedFee.tsx:226
+msgid "Likely in >5 minutes"
+msgstr "ممکن است بیشتر از 5 دقیقه باشد"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:46
+msgid "Loading details"
+msgstr "در حال بارگیری جزئیات"
+
+#: src/screens/SelectKey/SelectKey.tsx:236
+msgid "Loading keys"
+msgstr "بارگذاری کلیدها"
+
+#: src/screens/SelectKey/SelectKey.tsx:117
+#~ msgid "Loading list of the keys"
+#~ msgstr "Loading list of the keys"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:317
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:336
+#~ msgid "Log Out"
+#~ msgstr ""
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:335
+#~ msgid "Logout"
+#~ msgstr ""
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:17
+msgid "Migrate"
+msgstr "انتقال"
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:16
+msgid "Migration required"
+msgstr "نیاز به انتقال"
+
+#: src/components/Settings/SettingsApp.tsx:70
+msgid "Mode"
+msgstr "حالت"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:107
+msgid "NEVER SHARE THESE WITH ANYONE"
+msgstr "هرگز این موارد را با کسی به اشتراک نگذارید"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:42
+msgid "New passphrase is the same as your current passphrase"
+msgstr "رمز ورودی جدید همانند رمز ورودی فعلی شما است"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:133
+msgid "New version {latestVersion} available"
+msgstr "موجود است {latestVersion} نسخه جدید"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:84
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:138
+msgid "No 24 word seed, since this key is imported."
+msgstr "از زمانیکه کلید را وارد کرده اید هیچ کلمات رمز 24 حرفی موجود نیست."
+
+#: src/components/FormatConnectionStatus/FormatConnectionStatus.tsx:33
+msgid "Not connected"
+msgstr "متضل نیست"
+
+#: src/screens/SelectKey/WalletStatus.tsx:61
+#~ msgid "Not Synced"
+#~ msgstr ""
+
+#: src/components/AlertDialog/AlertDialog.tsx:23
+#: src/components/ConfirmDialog/ConfirmDialog.tsx:30
+msgid "OK"
+msgstr "قبول"
+
+#: src/screens/SelectKey/SelectKey.tsx:258
+msgid "Open a world of possibilities."
+msgstr "دنیایی از امکانات را باز کنید."
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:98
+msgid "Pool Public Key"
+msgstr "کلید عمومی استخر"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:66
+msgid "Pool public key:"
+msgstr "کلید عمومی استخر:"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:27
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:34
+msgid "Private key {fingerprint}"
+msgstr "{fingerprint} کد شخصی"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:42
+msgid "Private key:"
+msgstr "کلید شخصی:"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:82
+msgid "Public Key"
+msgstr "کلید عمومی"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:50
+msgid "Public key:"
+msgstr "کلید عمومی:"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:289
+msgid "Random"
+msgstr "تصادفی"
+
+#: src/components/Fee/Fee.tsx:18
+msgid "Recommended value: 0.000005"
+msgstr "مقدار پیشنهادی: 0.000005"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:71
+msgid "Release Notes"
+msgstr "یادداشت های انتشار"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:85
+msgid "Reload Application"
+msgstr "بارگذاری مجدد برنامه"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:270
+msgid "Remove Icon"
+msgstr "حذف نماد"
+
+#: src/screens/SelectKey/SelectKeyItem.tsx:98
+msgid "Rename"
+msgstr "تغییر نام"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:80
+msgid "Report an Issue"
+msgstr "گزارش یک خطا"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:124
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:146
+msgid "Reveal"
+msgstr "نمایان"
+
+#: src/screens/SelectKey/SelectKeyRenameForm.tsx:109
+msgid "Save"
+msgstr "ذخیره"
+
+#: src/screens/SelectKey/EmojiAndColorPicker.tsx:182
+#: src/screens/SelectKey/Search.tsx:34
+msgid "Search"
+msgstr "جستجو"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:113
+msgid "Secret Key"
+msgstr "کلید مخفی"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:131
+msgid "Seed Phrase"
+msgstr "عبارات کلمه"
+
+#: src/screens/SelectKey/SelectKeyDeleteKeyDialog.tsx:76
+msgid "Seed:"
+msgstr "کلمات زمز:"
+
+#: src/screens/SelectKey/SelectKey.tsx:134
+#~ msgid "Select Key"
+#~ msgstr "Select Key"
+
+#: src/components/Dropdown/Dropdown.tsx:28
+msgid "Select..."
+msgstr "انتخاب..."
+
+#: src/components/LayoutMain/LayoutFooter.tsx:52
+#: src/components/Settings/SettingsApp.tsx:155
+msgid "Send Feedback"
+msgstr "ارسال پیشنهاد"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:53
+msgid "Setting a passphrase is strongly recommended to protect your keys. Are you sure you want to skip setting a passphrase?"
+msgstr "تنظیم یک رمز ورود برای محافظت از کلیدهای شما قویا توصیه میشود. آیا مطمئن هستید که میخواهید از تنظیم یک رمز ورود صرفنظر کنید؟"
+
+#: src/components/Settings/Settings.tsx:50
+#: src/components/Settings/Settings.tsx:60
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/components/AdvancedOptions/AdvancedOptions.tsx:26
+msgid "Show Advanced Options"
+msgstr "نمایش گزینه‌های پیشرفته"
+
+#: src/screens/SelectKey/SelectKey.tsx:139
+#~ msgid "Sign In"
+#~ msgstr "Sign In"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:136
+#: src/hooks/useValidateChangePassphraseParams.tsx:51
+msgid "Skip"
+msgstr "صرف نظر"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:50
+msgid "Skip Passphrase Protection"
+msgstr "صرف نظر از محافظت رمز ورود"
+
+#: src/components/ErrorBoundary/ErrorBoundary.tsx:67
+msgid "Something went wrong"
+msgstr "مشکلی پیش آمد"
+
+#: src/screens/SelectKey/WalletStatus.tsx:73
+#~ msgid "Synced"
+#~ msgstr ""
+
+#: src/screens/SelectKey/WalletStatus.tsx:85
+#~ msgid "Syncing"
+#~ msgstr ""
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:29
+msgid "The provided passphrase and confirmation do not match"
+msgstr "رمز ورود تأیید شده مطابقت ندارند"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:143
+msgid "This key is used for a wallet that may have a non-zero balance. By deleting this key you may lose access to this wallet"
+msgstr "این کلید برای کیف پول استفاده شده است و ممکن است خالی نباشد در صورت حذف دیگر به آن دسترسی نخواهید داشت"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:125
+msgid "This key is used for your farming rewards address. By deleting this key you may lose access to any future farming rewards"
+msgstr "این کلید برای دریافت پاداش استخر فارم شما استفاده شده است. با حذف کلید دسترسی به پاداشهای بعدی استخر را از دست میدهید"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:134
+msgid "This key is used for your pool rewards address. By deleting this key you may lose access to any future pool rewards"
+msgstr "این کلید برای دریافت پاداش استخر فارم شما استفاده شده است. با حذف کلید دسترسی به پاداشهای بعدی استخر را از دست میدهید"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:155
+msgid "This will permanently remove the key from your computer, make sure you have your mnemonic phrase backed up."
+msgstr "با این کار کلید برای همیشه از رایانه شما حذف میشود، مطمئن شوید که از کلمات کد خود نسخه پشتیبان تهیه کرده اید."
+
+#: src/utils/getTransactionResult.ts:40
+msgid "Transaction has been sent to a full node and is pending inclusion into the mempool. {0}"
+msgstr "تراکنش به یک نودکامل ارسال شد و منتظر قرار گرفتن در حافظه استخر تراکنش است. {0}"
+
+#: src/utils/getTransactionResult.ts:15
+msgid "Transaction has not been sent to node yet"
+msgstr "تراکنش هنوز به نود ارسال نشده"
+
+#: src/utils/getTransactionResult.ts:33
+#~ msgid "Transaction has sent to a full node and is pending inclusion into the mempool. {0}"
+#~ msgstr "Transaction has been sent to a full node and is pending inclusion into the mempool. {0}"
+
+#: src/utils/getTransactionResult.ts:24
+msgid "Transaction has successfully been sent to a full node and included in the mempool."
+msgstr "تراکنش به نودکامل منتقل شد و در حافظه استخر تراکنش قرار گرفت."
+
+#: src/screens/SelectKey/SelectKey.tsx:243
+msgid "Try Again"
+msgstr "مجدد تلاش کنید"
+
+#: src/screens/SelectKey/SelectKey.tsx:247
+msgid "Unable to load keys"
+msgstr "کلیدها بارگیری نمیشوند"
+
+#: src/screens/SelectKey/SelectKey.tsx:128
+#~ msgid "Unable to load the list of the keys"
+#~ msgstr "Unable to load the list of the keys"
+
+#: src/components/LocaleToggle/LocaleToggle.tsx:44
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: src/components/Back/Back.tsx:36
+#: src/components/FormBackButton/FormBackButton.tsx:27
+msgid "Unsaved Changes"
+msgstr "تغییرات ذخیره نشده"
+
+#: src/hooks/useValidateChangePassphraseParams.tsx:62
+msgid "Using a passphrase is strongly recommended to protect your keys. Are you sure you want to disable passphrase protection?"
+msgstr "تنظیم یک رمز ورود برای محافظت از کلیدهای شما اکیداً توصیه میشود. آیا مطمئن هستید که میخواهید از تنظبم رمز عبور صرفنظر کنید؟"
+
+#: src/components/Fee/Fee.tsx:24
+msgid "Value seems high"
+msgstr "ارزش بالا به نظر میرسد"
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:233
+#: src/components/Settings/SettingsApp.tsx:87
+msgid "Wallet"
+msgstr "کیف پول"
+
+#: src/screens/SelectKey/SelectKeyDetailDialog.tsx:63
+#: src/screens/SelectKey/SelectKeyItem.tsx:234
+msgid "Wallet {0}"
+msgstr "کیف پول {0}"
+
+#: src/screens/SelectKey/WalletDeleteDialog.tsx:166
+msgid "Wallet Fingerprint"
+msgstr "کلمات کد کیف پول"
+
+#: src/screens/SelectKey/SelectKey.tsx:223
+msgid "Wallet Keys"
+msgstr "کلیدهای کیف پول"
+
+#: src/screens/SelectKey/SelectKey.tsx:142
+#~ msgid "Welcome to Gold. Please log in with an existing key, or create a new key."
+#~ msgstr "Welcome to Gold. Please log in with an existing key, or create a new key."
+
+#: src/components/LayoutDashboard/LayoutDashboard.tsx:142
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:66
+msgid "What's New"
+msgstr "اخبار جدید"
+
+#: src/components/Back/Back.tsx:40
+#: src/components/FormBackButton/FormBackButton.tsx:31
+msgid "You have made changes. Do you want to discard them?"
+msgstr "شما تغییراتی ایجاد کرده اید. آیا میخواهید آنها را فراموش کنید؟"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:97
+msgid "You're up to date"
+msgstr "شما بروز هستید"
+
+#: src/components/LayoutDashboard/NewerAppVersionAvailable.tsx:49
+msgid "Your Current Version:"
+msgstr "نسخه فعلی شما:"
+
+#: src/hooks/useKeyringMigrationPrompt.tsx:21
+msgid "Your keys have not been migrated to a new keyring. You will be unable to create new keys or delete existing keys until migration completes. Would you like to migrate your keys now?"
+msgstr "کلیدهای شما به یک کلید جدید تا زمانیکه انتقال کامل نشود، منتقل نشده است. نمیتوانید کلیدهای جدید ایجاد کنید یا کلیدهای موجود را حذف کنید. آیا میخواهید کلیدهای خود را اکنون انتقال دهید؟"
