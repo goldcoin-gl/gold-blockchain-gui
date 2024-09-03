@@ -215,6 +215,14 @@ export default class Wallet extends Service {
     return this.command<{ connections: Connection[] }>('get_connections');
   }
 
+  async openConnection(args: { host: string; port: number }) {
+    return this.command<void>('open_connection', args);
+  }
+
+  async closeConnection(args: { nodeId: string }) {
+    return this.command<void>('close_connection', args);
+  }
+
   async getAllOffers(args: {
     start?: number;
     end?: number;

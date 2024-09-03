@@ -126,6 +126,8 @@ export const {
   useGetNetworkInfoQuery,
   useGetSyncStatusQuery,
   useGetWalletConnectionsQuery,
+  useOpenWalletConnectionMutation,
+  useCloseWalletConnectionMutation,
   useGetAllOffersQuery,
   useGetOffersCountQuery,
   useCreateOfferForIdsMutation,

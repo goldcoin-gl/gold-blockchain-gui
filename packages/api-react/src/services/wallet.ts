@@ -600,6 +600,17 @@ export const walletApi = apiWithTag.injectEndpoints({
       ]),
     }),
 
+    openWalletConnection: mutation(build, WalletService, 'openConnection', {
+      invalidatesTags: [{ type: 'WalletConnections', id: 'LIST' }],
+    }),
+
+    closeWalletConnection: mutation(build, WalletService, 'closeConnection', {
+      invalidatesTags: (_result, _error, { nodeId }) => [
+        { type: 'WalletConnections', id: 'LIST' },
+        { type: 'WalletConnections', id: nodeId },
+      ],
+    }),
+
     // Offers
 
     getAllOffers: query(build, WalletService, 'getAllOffers', {
@@ -1624,6 +1635,8 @@ export const {
   useGetNetworkInfoQuery,
   useGetSyncStatusQuery,
   useGetWalletConnectionsQuery,
+  useOpenWalletConnectionMutation,
+  useCloseWalletConnectionMutation,
   useGetAllOffersQuery,
   useGetOffersCountQuery,
   useCreateOfferForIdsMutation,

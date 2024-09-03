@@ -1,9 +1,19 @@
 import { Connection, ServiceConnectionName } from '@gold-network/api';
 import { useGetWalletConnectionsQuery } from '@gold-network/api-react';
-import { Card, FormatBytes, Loading, Table } from '@gold-network/core';
+import { Card, FormatBytes, IconButton, Loading, Table, useOpenDialog } from '@gold-network/core';
 import { Trans } from '@lingui/macro';
-import { Tooltip } from '@mui/material';
+import { Delete as DeleteIcon } from '@mui/icons-material';
+import {Button, Tooltip} from '@mui/material';
 import React from 'react';
+import styled from "styled-components";
+
+import WalletAddConnection from "./WalletAddConnection";
+import WalletCloseConnection from "./WalletCloseConnection";
+
+
+const StyledIconButton = styled(IconButton)`
+  padding: 0.2rem;
+`;
 
 const cols = [
   {
@@ -46,6 +56,20 @@ const cols = [
     },
     title: <Trans>Connection type</Trans>,
   },
+  {
+    title: <Trans>Actions</Trans>,
+    field(row: Connection) {
+      return (
+        <WalletCloseConnection nodeId={row.nodeId}>
+          {({ onClose }) => (
+            <StyledIconButton onClick={onClose}>
+              <DeleteIcon color="info" />
+            </StyledIconButton>
+          )}
+        </WalletCloseConnection>
+      );
+    },
+  },
 ];
 
 export type WalletConnectionsProps = {
@@ -53,6 +77,7 @@ export type WalletConnectionsProps = {
 };
 
 export default function WalletConnections(props: WalletConnectionsProps) {
+  const openDialog = useOpenDialog();
   const { walletId } = props;
   const { data: connections, isLoading } = useGetWalletConnectionsQuery(
     {
@@ -63,8 +88,17 @@ export default function WalletConnections(props: WalletConnectionsProps) {
     },
   );
 
+  function handleAddPeer() {
+    openDialog(<WalletAddConnection />);
+  }
+
   return (
-    <Card title={<Trans>Wallet Connections</Trans>}>
+    <Card title={<Trans>Wallet Connections</Trans>}
+      action={
+        <Button onClick={handleAddPeer} variant="outlined">
+          <Trans>Connect to other peers</Trans>
+        </Button>
+      }>
       {isLoading ? (
         <Loading center />
       ) : !connections?.length ? (
